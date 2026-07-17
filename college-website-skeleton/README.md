@@ -1,9 +1,9 @@
 # College Website Project
 
-A college website built collaboratively by a 10-member team.
+A college website built collaboratively by club membres.
 
 ## 🚀 Overview
-This repo hosts the source code for our college website — homepage, about, academics, admissions, and contact pages — built with HTML/CSS/JS (and backend where needed).
+This repo hosts the source code for our college website — homepage, about, academics, and contact pages — built with HTML/CSS/JS (and backend where needed).
 
 ## 🌳 Branch Strategy
 - `main` — always stable, deployable. No direct pushes.
