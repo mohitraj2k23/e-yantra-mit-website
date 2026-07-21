@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Gallery — Muzaffarpur Institute of Technology</title>
+<link rel="stylesheet" href="../css/gallery.css">
+</head>
+<body>
+
+<div class="stripe"></div>
+
+<header class="site">
+  <div class="nav-wrap">
+    <a href="../index.html" class="brand">
+  <span class="brand-logos">
+    <img src="../assets/images/mit-logo.png" alt="Muzaffarpur Institute of Technology logo" class="logo-mit">
+    <img src="../assets/images/eyantra-logo.png" alt="e-Yantra logo" class="logo-eyantra">
+  </span>
+  <span>MIT e-Yantra Club<small>Robotics Outreach Programme</small></span>
+</a>
+    <nav class="links" id="navLinks">
+      <a href="../index.html">Home</a>
+      <a href="../pages/about.html">About</a>
+      <a href="../pages/academics.html">Academics</a>
+      <a href="../pages/admissions.html">Admissions</a>
+      <a href="../pages/gallery.html" class="active">Gallery</a>
+      <a href="../pages/contact.html">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Photo Gallery</div>
+    <h1 class="page-title">Moments from the workshop floor</h1>
+    <p>A running record of build sessions, competition finals, and the robots our students shipped along the way. Tap any frame to view it full-size.</p>
+  </div>
+</section>
+
+<div class="filters" id="filters"></div>
+
+<main class="gallery" id="gallery">
+  <p class="empty" id="emptyState">No photos in this category yet.</p>
+</main>
+
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lbClose" aria-label="Close">&#10005;</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">&#10094;</button>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next">&#10095;</button>
+  <div class="lb-inner">
+    <img id="lbImg" src="" alt="">
+    <div class="lb-caption">
+      <span class="cat" id="lbCat"></span>
+      <div class="cap" id="lbCap"></div>
+    </div>
+    <div class="lb-counter" id="lbCounter"></div>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="stripe"></div>
+  <div class="footer-wrap">
+    <div class="footer-col">
+      <h4>e-yantra: Muzaffarpur Institute of Technology</h4>
+      <a href="../pages/about.html">About</a>
+      <a href="../pages/academics.html">Academics</a>
+      <a href="../pages/admissions.html">Admissions</a>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="../pages/gallery.html">Gallery</a>
+      <a href="../pages/contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+  <div class="brand-logos" style="margin-bottom:10px;">
+    <img src="../assets/images/mit-logo.png" alt="MIT logo" style="height:28px;">
+    <img src="../assets/images/eyantra-logo.png" alt="e-Yantra logo" style="height:16px; background:#fff; padding:2px 5px; border-radius:3px;">
+  </div>
+  <h4>MIT e-Yantra Club</h4>
+     <div class="socials">
+  <a href="#" aria-label="Facebook">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3.5l.5-4H14V7a1 1 0 0 1 1-1h3z"/>
+    </svg>
+  </a>
+  <a href="#" aria-label="X (Twitter)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M4 4l16 16M20 4L4 20"/>
+    </svg>
+  </a>
+  <a href="#" aria-label="YouTube">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="6" width="20" height="12" rx="3"/>
+      <path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/>
+    </svg>
+  </a>
+  <a href="#" aria-label="Instagram">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="3" width="18" height="18" rx="5"/>
+      <circle cx="12" cy="12" r="4"/>
+      <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
+    </svg>
+  </a>
+</div>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 Muzaffarpur Institute of Technology. All rights reserved.</div>
+</footer>
+
+<script src="../js/gallery.js"></script>
+
+</body>
+</html>
